@@ -131,13 +131,12 @@ console.log(`Повне ім'я - ${fullName}`);
 
 // - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками.
 
-firstName2 = prompt("Напиши своє ім'я", 'Alexandr');
-middleName2 = prompt("Напиши своє ім'я по батькові", 'Volodymyrovych');
-fullYear2 = prompt("Напиши cвій вік", '37');
+let firstName2 = prompt("Напиши своє ім'я", 'Alexandr');
+let middleName2 = prompt("Напиши своє ім'я по батькові", 'Volodymyrovych');
+let fullYear2 = prompt("Напиши cвій вік", '37');
 
 // Вивести "Вітаю *Імя* *По батькові*. Тобі *вік* років".
 
-let fullName2 = `${lastName} ${firstName} ${middleName}`;
 console.log(`Вітаю ${firstName2} ${middleName2}. Тобі ${fullYear2} років`);
 alert(`Вітаю ${firstName2} ${middleName2}. Тобі ${fullYear2} років`);
 document.write(`Вітаю ${firstName2} ${middleName2}. Тобі ${fullYear2} років`);
